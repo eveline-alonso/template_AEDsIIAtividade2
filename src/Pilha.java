@@ -39,4 +39,9 @@ public class Pilha<E> {
 		return topo.getItem();
 
 	}
+
+	public Pilha<E> subPilha(int numItens) {
+		
+		return null;
+	}
 }
