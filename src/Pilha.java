@@ -40,6 +40,18 @@ public class Pilha<E> {
 
 	}
 
+	/**
+	 * Cria e devolve uma nova pilha contendo os primeiros numItens elementos
+	 * do topo da pilha atual.
+	 * 
+	 * Os elementos são mantidos na mesma ordem em que estavam na pilha original.
+	 * Caso a pilha atual possua menos elementos do que o valor especificado,
+	 * uma exceção será lançada.
+	 *
+	 * @param numItens o número de itens a serem copiados da pilha original.
+	 * @return uma nova instância de Pilha<E> contendo os numItens primeiros elementos.
+	 * @throws IllegalArgumentException se a pilha não contém numItens elementos.
+	 */
 	public Pilha<E> subPilha(int numItens) {
 		
 		return null;
